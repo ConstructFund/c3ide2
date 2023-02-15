@@ -1,0 +1,27 @@
+{
+  "name": "C3IDE2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "pinia": "^2.0.30",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.23.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "vite": "^4.0.0"
+  }
+}
