@@ -1,0 +1,27 @@
+{
+  "is-c3-addon": true,
+  "type": "plugin",
+  "name": "Empty Shell",
+  "id": "skymen_Shell",
+  "version": "1.0.0.2",
+  "author": "skymen",
+  "website": "https://www.construct.net",
+  "documentation": "https://www.construct.net",
+  "description": "An empty shell addon that can be given a texture",
+  "editor-scripts": [
+    "editor.js"
+  ],
+  "file-list": [
+    "c3runtime/actions.js",
+    "c3runtime/conditions.js",
+    "c3runtime/expressions.js",
+    "c3runtime/instance.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "editor.js"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "general": {
+    "conditions": [
+      {
+        "id": "HasSource",
+        "scriptName": "HasSource",
+        "highlight": false,
+        "params": []
+      },
+      {
+        "id": "KeepsSync",
+        "scriptName": "KeepsSync",
+        "highlight": false,
+        "params": []
+      }
+    ],
+    "actions": [
+      {
+        "id": "SetSource",
+        "scriptName": "SetSource",
+        "highlight": true,
+        "params": [
+          {
+            "id": "source",
+            "type": "object",
+            "allowedPluginIds": [
+              "Sprite"
+            ]
+          },
+          {
+            "id": "keep-sync",
+            "type": "boolean"
+          },
+          {
+            "id": "sync-size",
+            "type": "combo",
+            "items": [
+              "no-sync",
+              "sprite-size",
+              "image-size"
+            ]
+          },
+          {
+            "id": "fallback",
+            "type": "combo",
+            "items": [
+              "item1",
+              "item2",
+              "item3",
+              "item4"
+            ]
+          },
+          {
+            "id": "sync-origin",
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "SetHotspot",
+        "scriptName": "SetHotspot",
+        "highlight": true,
+        "params": [
+          {
+            "id": "hotspot-x",
+            "type": "number",
+            "value": 0
+          },
+          {
+            "id": "hotspot-y",
+            "type": "number",
+            "value": 0
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "HotspotX",
+        "scriptName": "HotspotX",
+        "expressionName": "HotspotX",
+        "highlight": false,
+        "returnType": "number",
+        "params": []
+      },
+      {
+        "id": "HotspotY",
+        "scriptName": "HotspotY",
+        "expressionName": "HotspotY",
+        "highlight": false,
+        "returnType": "number",
+        "params": []
+      }
+    ]
+  }
+}
